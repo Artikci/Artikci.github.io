@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: black;
+}
+body {
+opacity: 1;
+background-size: 10%;
+background: url(b.png) ; }
+
+a { text-decoration: none;
+color: black;}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header1 {
+    
+    max-height: 100%;
+    max-width: 100%;
+    border: 3px solid rgba(0, 0, 0, 0);
+  background-color: rgb(32, 129, 226);
+  
+ 
+   
+  
+    animation: background-color 1s 0s infinite ease-in-out alternate both  ;
+
+}
+@keyframes background-color {
+ from {
+     background-color:rgba(110, 240, 229, 0.466);
+ }
+ to {
+     background-color: rgba(90, 84, 84, 0.356);
+ }
+
+}
+.header1 a {
+    font-variant: small-caps;
+    
+ color: rgb(255, 228, 109);
+}
+.head {
+
+ font-size: 500%;
+ text-align: center;
+ font-family: 'Black Ops One', cursive;      
+ background: url(21.jpg);
+ box-sizing: border-box;
+ 
+ 
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee&family=Eczar&family=Gloria+Hallelujah&display=swap');   
+nav {
+ margin: auto;
+ width: 800px;
+ height: 50px;
+}
+.topnav {
+ background-color: rgba(255, 255, 255, 0);
+ font-size: 15px;
+ margin-top: 40px;
+}
+
+.topnav a{
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+ text-align: center;
+ padding: 14px 16px;
+ font-size: 17px;
+ font-family: 'Press Start 2P', cursive;
+
+}
+.topnav a:hover {
+ color: black;
+ border-style: ridge;
+ border-bottom: 2px solid black;
+ background-color: rgba(53, 59, 114, 0.486);
+
+ animation: color 0s 0s  ease-in-out alternate both  ;
+}
+@keyframes color {
+from {color: rgb(0, 0, 0)}
+to {color: rgb(135, 233, 233)}
+}
+.topnav .icon {
+ 
+ display: none;
+}
+
+
+footer{
+width: 100%;
+height: auto;
+background-color: black;
+margin: 0 auto;
+text-align: center;
+padding-top: 25px;
+
+
+}
+footer .ff {
+margin-bottom: -20px;
+}
+footer .logo{
+    margin-bottom: 10px;
+}
+footer a{
+color: rgb(255, 255, 255);
+font-size: 13px;
+margin-left: 15px;
+
+}
+footer .end{
+color: white;
+font-size: 10px;
+
+}
+
+footer nav a:hover {
+border-bottom: 1px solid white;
+color: rgb(180, 179, 179)
+}
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+footer .logo a {
+
+text-decoration: none;
+font-size: 35px;
+font-family: 'Gloria Hallelujah', cursive; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Corinthia&display=swap');
+.social img{
+     margin-left: 15px;
+     margin-bottom: 10px;
+     width: 35px;
+ }
+.social .email:hover{
+background: rgb(37, 37, 253);
+border-radius: 50% ;
+}
+.social .insta:hover{
+background: #ca3c3c;
+border-radius: 50% ;
+}
+.social .facebook:hover{
+background: rgb(37, 37, 253);
+border-radius: 50% ;
+}
+.social .google:hover{
+background: #e71717;
+border-radius: 50% ;
+}
+.social .pinterest:hover{
+background: red;
+border-radius: 50% ;
+}
+.social .up{
+background: rgb(255, 255, 255);
+border-radius: 50% ;
+}
+.social .up:hover {
+    cursor: grab;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+@media screen and (max-width: 770px) {
+.topnav a:not(first-child) {
+     display: none;
+ }
+
+ .topnav a.icon {
+     
+     float: right;
+     margin-top: -17px;
+     display: flex;
+     color: rgb(0, 0, 0);
+ }
+ nav{
+     width: 100%;
+     height: 100px;
+ }
+ .topnav.responsive{
+     position: relative;
+
+ }
+ .topnav.responsive a.icon{
+     position: absolute;
+     right: 0;
+     top: 0;
+ }
+ .topnav a{
+ text-decoration: none;
+ color: rgb(245, 200, 132);
+ text-align: center;
+ padding: 14px 16px;
+ font-size: 17px;
+ font-family: 'Press Start 2P', cursive;
+
+}
+ .topnav.responsive a {
+     float: left;
+     display: block;
+     text-align: center;
+     background-color: rgba(32, 32, 32, 0.7);
+ }
+ .advantages__item {
+     width: 45%;
+ }
+ footer .ff {
+margin-bottom: -70px;
+}
+footer .logo{
+    margin-bottom: 10px;
+}
+.photo-itm {
+    width: 45%;
+    margin-left: 10px;
+}
+}
+
+
+/* Projects Style*/
+
+.gallery {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+     
+}
+.photo-itm{
+    transition: 1400ms;
+    border: 7px solid black;
+    border-style: double;
+    width:200px;
+    height: 200px;
+}
+.photo-itm img{
+   
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    opacity: 0.7;
+
+}
+.photo-itm img:hover {
+    
+    
+    animation: transform 300ms 0s ease-in-out alternate both ;
+}
+@keyframes transform {
+    from {
+       transform: scale(0.95);
+       opacity: 0.7;
+       
+    }
+    to {
+        transform: scale(1.15);
+        opacity: 1;
+        
+    }
+}

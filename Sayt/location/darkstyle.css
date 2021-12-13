@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: black;
+}
+body {
+    opacity: 1;
+background-size: 10%;
+background-color: rgb(0, 0, 0) ; }
+
+a { text-decoration: none;
+color: black;}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header1 {
+    
+    max-height: 100%;
+    max-width: 100%;
+    border: 3px solid rgba(0, 0, 0, 0);
+  background-color: rgb(32, 129, 226);
+  
+ 
+   
+  
+    animation: background-color 1s 0s infinite ease-in-out alternate both  ;
+
+}
+@keyframes background-color {
+ from {
+     background-color:rgba(41, 41, 41, 0.712);
+ }
+ to {
+     background-color: rgba(0, 0, 0, 0.705);
+ }
+
+}
+.header1 a {
+    font-variant: small-caps;
+    
+ color: rgb(255, 228, 109);
+}
+.head {
+
+ font-size: 500%;
+ text-align: center;
+ font-family: 'Black Ops One', cursive;      
+ background: url(21.jpg);
+ box-sizing: border-box;
+ 
+ 
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee&family=Eczar&family=Gloria+Hallelujah&display=swap');   
+nav {
+ margin: auto;
+ width: 800px;
+ height: 50px;
+}
+.topnav {
+ background-color: rgba(255, 255, 255, 0);
+ font-size: 15px;
+ margin-top: 40px;
+}
+
+.topnav a{
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ text-align: center;
+ padding: 14px 16px;
+ font-size: 17px;
+ font-family: 'Press Start 2P', cursive;
+
+}
+.topnav a:hover {
+ color: rgb(255, 255, 255);
+ border-style: ridge;
+ border-bottom: 2px solid rgb(255, 255, 255);
+ background-color: rgba(53, 59, 114, 0.486);
+
+ animation: color 0s 0s  ease-in-out alternate both  ;
+}
+@keyframes color {
+from {color: rgb(0, 0, 0)}
+to {color: rgb(135, 233, 233)}
+}
+.topnav .icon {
+ 
+ display: none;
+}
+
+
+footer{
+width: 100%;
+height: auto;
+background-color: black;
+margin: 0 auto;
+text-align: center;
+padding-top: 25px;
+
+
+}
+footer .ff {
+margin-bottom: -20px;
+}
+footer .logo{
+    margin-bottom: 10px;
+}
+footer a{
+color: rgba(255, 255, 255, 0.7);
+font-size: 13px;
+margin-left: 15px;
+
+}
+footer .end{
+color: rgba(255, 255, 255, 0.7);
+font-size: 10px;
+
+}
+
+footer nav a:hover {
+border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+color: rgba(255, 255, 255, 0.9)
+}
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+footer .logo a {
+color: rgba(255, 255, 255, 0.7);
+text-decoration: none;
+font-size: 35px;
+font-family: 'Gloria Hallelujah', cursive; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Corinthia&display=swap');
+.social img{
+     margin-left: 15px;
+     margin-bottom: 10px;
+     width: 35px;
+     background: rgba(255, 255, 255, 0.4);
+     border-radius: 50%;
+ }
+.social .email:hover{
+background: rgb(37, 37, 253);
+border-radius: 50% ;
+}
+.social .insta:hover{
+background: #ca3c3c;
+border-radius: 50% ;
+}
+.social .facebook:hover{
+background: rgb(37, 37, 253);
+border-radius: 50% ;
+}
+.social .google:hover{
+background: #e71717;
+border-radius: 50% ;
+}
+.social .pinterest:hover{
+background: red;
+border-radius: 50% ;
+}
+.social .up{
+    background: rgba(255, 255, 255, 0.493);
+    border-radius: 50% ;
+}
+.social .up:hover {
+    cursor: grab;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+@media screen and (max-width: 770px) {
+.topnav a:not(first-child) {
+     display: none;
+ }
+ .topnav a.icon {
+     float: right;
+     margin-top: -17px;
+     display: block;
+     color: rgba(255, 255, 255, 0.7);
+ }
+ nav{
+     width: 100%;
+     height: 100px;
+ }
+ .topnav.responsive{
+     position: relative;
+
+ }
+ .topnav.responsive a.icon{
+     position: absolute;
+     right: 0;
+     top: 0;
+ }
+ .topnav a{
+ text-decoration: none;
+ color: rgb(245, 200, 132);
+ text-align: center;
+ padding: 14px 16px;
+ font-size: 17px;
+ font-family: 'Press Start 2P', cursive;
+
+}
+.topnav.responsive a {
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: rgba(32, 32, 32, 0.7);
+ }
+ .advantages__item {
+     width: 45%;
+ }
+ footer .ff {
+margin-bottom: -70px;
+}
+footer .logo{
+    margin-bottom: 10px;
+}
+}
+
+/* location Style*/
+
+
+#map {
+    
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+width: 1000px;
+height: 500px;
+}
+.location {
+    transition: 1s;
+    color: rgba(255, 235, 205, 0.863);
+    font-size: 25px;
+    text-align: center;
+}
+.mapg {
+    transition: 1s;
+    margin-bottom: 15px;
+    border-bottom: 2px solid blanchedalmond;
+    border-top: 2px solid blanchedalmond;
+}
